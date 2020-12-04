@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA7BC98257A596D00BC81E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BC97257A596D00BC81E2 /* AppDelegate.swift */; };
+		9DA7BC9A257A596D00BC81E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BC99257A596D00BC81E2 /* SceneDelegate.swift */; };
+		9DA7BC9C257A596D00BC81E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BC9B257A596D00BC81E2 /* ViewController.swift */; };
+		9DA7BC9F257A596D00BC81E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BC9D257A596D00BC81E2 /* Main.storyboard */; };
+		9DA7BCA1257A597100BC81E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCA0257A597100BC81E2 /* Assets.xcassets */; };
+		9DA7BCA4257A597100BC81E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCA2257A597100BC81E2 /* LaunchScreen.storyboard */; };
+		9F74140FD753AB77B4E48B74 /* Pods_MVVMAgeOfEmpires2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9090F9020F193DA9DABB0937 /* Pods_MVVMAgeOfEmpires2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		118E519FE1DCE4BDFC7D0022 /* Pods-MVVMAgeOfEmpires2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMAgeOfEmpires2.release.xcconfig"; path = "Target Support Files/Pods-MVVMAgeOfEmpires2/Pods-MVVMAgeOfEmpires2.release.xcconfig"; sourceTree = "<group>"; };
+		3A3F13322BED0ACAEF7015E8 /* Pods-MVVMAgeOfEmpires2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMAgeOfEmpires2.debug.xcconfig"; path = "Target Support Files/Pods-MVVMAgeOfEmpires2/Pods-MVVMAgeOfEmpires2.debug.xcconfig"; sourceTree = "<group>"; };
+		9090F9020F193DA9DABB0937 /* Pods_MVVMAgeOfEmpires2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMAgeOfEmpires2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7BC94257A596D00BC81E2 /* MVVMAgeOfEmpires2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMAgeOfEmpires2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7BC97257A596D00BC81E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DA7BC99257A596D00BC81E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DA7BC9B257A596D00BC81E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DA7BC9E257A596D00BC81E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DA7BCA0257A597100BC81E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA7BCA3257A597100BC81E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DA7BCA5257A597100BC81E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA7BC91257A596D00BC81E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F74140FD753AB77B4E48B74 /* Pods_MVVMAgeOfEmpires2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EF3A5429A9C746E5CCF108 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A3F13322BED0ACAEF7015E8 /* Pods-MVVMAgeOfEmpires2.debug.xcconfig */,
+				118E519FE1DCE4BDFC7D0022 /* Pods-MVVMAgeOfEmpires2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1F3A2F36F8DE5EF05BCCD8CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9090F9020F193DA9DABB0937 /* Pods_MVVMAgeOfEmpires2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DA7BC8B257A596D00BC81E2 = {
+			isa = PBXGroup;
+			children = (
+				9DA7BC96257A596D00BC81E2 /* MVVMAgeOfEmpires2 */,
+				9DA7BC95257A596D00BC81E2 /* Products */,
+				04EF3A5429A9C746E5CCF108 /* Pods */,
+				1F3A2F36F8DE5EF05BCCD8CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA7BC95257A596D00BC81E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7BC94257A596D00BC81E2 /* MVVMAgeOfEmpires2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA7BC96257A596D00BC81E2 /* MVVMAgeOfEmpires2 */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7BCAD257A5AB000BC81E2 /* Model */,
+				9DA7BCAC257A5AA600BC81E2 /* View */,
+				9DA7BCAB257A5A9500BC81E2 /* ViewModel */,
+				9DA7BC97257A596D00BC81E2 /* AppDelegate.swift */,
+				9DA7BC99257A596D00BC81E2 /* SceneDelegate.swift */,
+				9DA7BC9B257A596D00BC81E2 /* ViewController.swift */,
+				9DA7BC9D257A596D00BC81E2 /* Main.storyboard */,
+				9DA7BCA0257A597100BC81E2 /* Assets.xcassets */,
+				9DA7BCA2257A597100BC81E2 /* LaunchScreen.storyboard */,
+				9DA7BCA5257A597100BC81E2 /* Info.plist */,
+			);
+			path = MVVMAgeOfEmpires2;
+			sourceTree = "<group>";
+		};
+		9DA7BCAB257A5A9500BC81E2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DA7BCAC257A5AA600BC81E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DA7BCAD257A5AB000BC81E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA7BC93257A596D00BC81E2 /* MVVMAgeOfEmpires2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA7BCA8257A597100BC81E2 /* Build configuration list for PBXNativeTarget "MVVMAgeOfEmpires2" */;
+			buildPhases = (
+				AB2263114AC2268546D9CDDB /* [CP] Check Pods Manifest.lock */,
+				9DA7BC90257A596D00BC81E2 /* Sources */,
+				9DA7BC91257A596D00BC81E2 /* Frameworks */,
+				9DA7BC92257A596D00BC81E2 /* Resources */,
+				DE9B61F9DF774A1D2887EBC6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVMAgeOfEmpires2;
+			productName = MVVMAgeOfEmpires2;
+			productReference = 9DA7BC94257A596D00BC81E2 /* MVVMAgeOfEmpires2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA7BC8C257A596D00BC81E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Jordi Milla Catalan";
+				TargetAttributes = {
+					9DA7BC93257A596D00BC81E2 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 9DA7BC8F257A596D00BC81E2 /* Build configuration list for PBXProject "MVVMAgeOfEmpires2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA7BC8B257A596D00BC81E2;
+			productRefGroup = 9DA7BC95257A596D00BC81E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA7BC93257A596D00BC81E2 /* MVVMAgeOfEmpires2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA7BC92257A596D00BC81E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7BCA4257A597100BC81E2 /* LaunchScreen.storyboard in Resources */,
+				9DA7BCA1257A597100BC81E2 /* Assets.xcassets in Resources */,
+				9DA7BC9F257A596D00BC81E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB2263114AC2268546D9CDDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMAgeOfEmpires2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9B61F9DF774A1D2887EBC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMAgeOfEmpires2/Pods-MVVMAgeOfEmpires2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMAgeOfEmpires2/Pods-MVVMAgeOfEmpires2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMAgeOfEmpires2/Pods-MVVMAgeOfEmpires2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA7BC90257A596D00BC81E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7BC9C257A596D00BC81E2 /* ViewController.swift in Sources */,
+				9DA7BC98257A596D00BC81E2 /* AppDelegate.swift in Sources */,
+				9DA7BC9A257A596D00BC81E2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DA7BC9D257A596D00BC81E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA7BC9E257A596D00BC81E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DA7BCA2257A597100BC81E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA7BCA3257A597100BC81E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA7BCA6257A597100BC81E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DA7BCA7257A597100BC81E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA7BCA9257A597100BC81E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3F13322BED0ACAEF7015E8 /* Pods-MVVMAgeOfEmpires2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVMAgeOfEmpires2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordi.benavides.MVVMAgeOfEmpires2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DA7BCAA257A597100BC81E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118E519FE1DCE4BDFC7D0022 /* Pods-MVVMAgeOfEmpires2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVMAgeOfEmpires2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordi.benavides.MVVMAgeOfEmpires2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA7BC8F257A596D00BC81E2 /* Build configuration list for PBXProject "MVVMAgeOfEmpires2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7BCA6257A597100BC81E2 /* Debug */,
+				9DA7BCA7257A597100BC81E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA7BCA8257A597100BC81E2 /* Build configuration list for PBXNativeTarget "MVVMAgeOfEmpires2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7BCA9257A597100BC81E2 /* Debug */,
+				9DA7BCAA257A597100BC81E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA7BC8C257A596D00BC81E2 /* Project object */;
+}

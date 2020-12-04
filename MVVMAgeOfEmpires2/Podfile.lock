@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+
+DEPENDENCIES:
+  - Kingfisher
+  - Moya
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - Result
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+
+PODFILE CHECKSUM: d02fb5292c87acc47f1939bc342d3886f06c8a92
+
+COCOAPODS: 1.8.4
