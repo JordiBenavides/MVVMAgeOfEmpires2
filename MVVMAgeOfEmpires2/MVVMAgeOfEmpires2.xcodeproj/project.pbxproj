@@ -13,6 +13,7 @@
 		9DA7BC9F257A596D00BC81E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BC9D257A596D00BC81E2 /* Main.storyboard */; };
 		9DA7BCA1257A597100BC81E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCA0257A597100BC81E2 /* Assets.xcassets */; };
 		9DA7BCA4257A597100BC81E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCA2257A597100BC81E2 /* LaunchScreen.storyboard */; };
+		9DA7BCAF257A5BA000BC81E2 /* Civilizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BCAE257A5BA000BC81E2 /* Civilizations.swift */; };
 		9F74140FD753AB77B4E48B74 /* Pods_MVVMAgeOfEmpires2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9090F9020F193DA9DABB0937 /* Pods_MVVMAgeOfEmpires2.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		9DA7BCA0257A597100BC81E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA7BCA3257A597100BC81E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA7BCA5257A597100BC81E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA7BCAE257A5BA000BC81E2 /* Civilizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Civilizations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		9DA7BCAD257A5AB000BC81E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9DA7BCAE257A5BA000BC81E2 /* Civilizations.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			files = (
 				9DA7BC9C257A596D00BC81E2 /* ViewController.swift in Sources */,
 				9DA7BC98257A596D00BC81E2 /* AppDelegate.swift in Sources */,
+				9DA7BCAF257A5BA000BC81E2 /* Civilizations.swift in Sources */,
 				9DA7BC9A257A596D00BC81E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
