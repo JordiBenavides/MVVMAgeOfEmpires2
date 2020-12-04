@@ -14,6 +14,8 @@
 		9DA7BCA1257A597100BC81E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCA0257A597100BC81E2 /* Assets.xcassets */; };
 		9DA7BCA4257A597100BC81E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7BCA2257A597100BC81E2 /* LaunchScreen.storyboard */; };
 		9DA7BCAF257A5BA000BC81E2 /* Civilizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BCAE257A5BA000BC81E2 /* Civilizations.swift */; };
+		9DA7BCB1257A5D7300BC81E2 /* ViewModelCivilization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BCB0257A5D7300BC81E2 /* ViewModelCivilization.swift */; };
+		9DA7BCB5257A604D00BC81E2 /* CivilizationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7BCB4257A604D00BC81E2 /* CivilizationsAPI.swift */; };
 		9F74140FD753AB77B4E48B74 /* Pods_MVVMAgeOfEmpires2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9090F9020F193DA9DABB0937 /* Pods_MVVMAgeOfEmpires2.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		9DA7BCA3257A597100BC81E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA7BCA5257A597100BC81E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA7BCAE257A5BA000BC81E2 /* Civilizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Civilizations.swift; sourceTree = "<group>"; };
+		9DA7BCB0257A5D7300BC81E2 /* ViewModelCivilization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelCivilization.swift; sourceTree = "<group>"; };
+		9DA7BCB4257A604D00BC81E2 /* CivilizationsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilizationsAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +86,10 @@
 		9DA7BC96257A596D00BC81E2 /* MVVMAgeOfEmpires2 */ = {
 			isa = PBXGroup;
 			children = (
-				9DA7BCAD257A5AB000BC81E2 /* Model */,
-				9DA7BCAC257A5AA600BC81E2 /* View */,
-				9DA7BCAB257A5A9500BC81E2 /* ViewModel */,
+				9DA7BCB3257A601A00BC81E2 /* Network */,
+				9DA7BCB2257A5FC000BC81E2 /* Main */,
 				9DA7BC97257A596D00BC81E2 /* AppDelegate.swift */,
 				9DA7BC99257A596D00BC81E2 /* SceneDelegate.swift */,
-				9DA7BC9B257A596D00BC81E2 /* ViewController.swift */,
 				9DA7BC9D257A596D00BC81E2 /* Main.storyboard */,
 				9DA7BCA0257A597100BC81E2 /* Assets.xcassets */,
 				9DA7BCA2257A597100BC81E2 /* LaunchScreen.storyboard */,
@@ -99,6 +101,7 @@
 		9DA7BCAB257A5A9500BC81E2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9DA7BCB0257A5D7300BC81E2 /* ViewModelCivilization.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -106,6 +109,7 @@
 		9DA7BCAC257A5AA600BC81E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9DA7BC9B257A596D00BC81E2 /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +120,24 @@
 				9DA7BCAE257A5BA000BC81E2 /* Civilizations.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9DA7BCB2257A5FC000BC81E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7BCAD257A5AB000BC81E2 /* Model */,
+				9DA7BCAC257A5AA600BC81E2 /* View */,
+				9DA7BCAB257A5A9500BC81E2 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9DA7BCB3257A601A00BC81E2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7BCB4257A604D00BC81E2 /* CivilizationsAPI.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA7BC9C257A596D00BC81E2 /* ViewController.swift in Sources */,
+				9DA7BCB1257A5D7300BC81E2 /* ViewModelCivilization.swift in Sources */,
 				9DA7BC98257A596D00BC81E2 /* AppDelegate.swift in Sources */,
 				9DA7BCAF257A5BA000BC81E2 /* Civilizations.swift in Sources */,
 				9DA7BC9A257A596D00BC81E2 /* SceneDelegate.swift in Sources */,
+				9DA7BCB5257A604D00BC81E2 /* CivilizationsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
