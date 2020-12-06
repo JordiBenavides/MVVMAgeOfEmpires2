@@ -12,7 +12,7 @@ import Moya
 enum CivilizationsAPI {
     
     case getCivilization
-//    case getCiviById(id: Int)
+    case getCiviById(id: Int)
     
 }
 
@@ -24,8 +24,8 @@ extension CivilizationsAPI:TargetType,AccessTokenAuthorizable {
         case .getCivilization:
             return "civilizations"
             
-//        case .getCiviById(id: let id):
-//            return "civilization/\(id)"
+        case .getCiviById(id: let id):
+            return "civilization/\(id)"
             
         }
         
@@ -36,8 +36,8 @@ extension CivilizationsAPI:TargetType,AccessTokenAuthorizable {
         case .getCivilization:
             return .get
             
-//        case .getCiviById(id: _):
-//            return .get
+        case .getCiviById(id: _):
+            return .get
             
         }
     }
@@ -47,8 +47,8 @@ extension CivilizationsAPI:TargetType,AccessTokenAuthorizable {
         case .getCivilization:
             return .bearer
             
-//        case .getCiviById(id: _):
-//            return .bearer
+        case .getCiviById(id: _):
+            return .bearer
             
         }
     }
@@ -58,8 +58,8 @@ extension CivilizationsAPI:TargetType,AccessTokenAuthorizable {
         case .getCivilization:
             return .requestPlain
             
-//        case .getCiviById(id: _):
-//            return .requestPlain
+        case .getCiviById(id: _):
+            return .requestPlain
             
         }
     }

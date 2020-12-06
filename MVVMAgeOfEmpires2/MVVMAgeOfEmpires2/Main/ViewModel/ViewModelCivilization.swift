@@ -33,8 +33,7 @@ var dataArray: [Civilizations] = [] {
               case .success(let response):
                   print("success")
                   let array: [Civilizations] = try! response.map(ResponseAPI.self).civilizations
-//                  self.data = array
-//                  self.tableView.reloadData()
+                  self.dataArray = array
               case .failure:
                   print("Error")
               }
